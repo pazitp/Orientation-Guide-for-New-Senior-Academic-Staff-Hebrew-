@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>חוברת קליטה לסגל אקדמי בכיר - הפקולטה להנדסה</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                'biu-green': '#004128',
+                'biu-mint-white': '#F5FAF0',
+                'biu-light-blue': '#78CDE6',
+                'biu-light-green': '#87CD7D',
+                'biu-ochre': '#EAB941',
+                'biu-brown': '#887029',
+                'biu-cream': '#E5DC8D',
+              }
+            }
+          }
+        }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Assistant', sans-serif;
+        }
+        @media print {
+            body {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+            .no-print {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body class="bg-biu-mint-white">
+
+    <div class="max-w-4xl mx-auto bg-white p-8 sm:p-12 my-8 sm:my-12 shadow-lg rounded-lg">
+
+        <header class="text-center border-b pb-6 mb-8">
+            <h1 class="text-3xl sm:text-4xl font-bold text-biu-green">חוברת קליטה לחבר/ת סגל אקדמי בכיר חדש/ה</h1>
+            <h2 class="text-xl sm:text-2xl font-semibold text-gray-700 mt-2">הפקולטה להנדסה, אוניברסיטת בר-אילן</h2>
+        </header>
+
+        <div class="text-center mb-8 no-print">
+            <button onclick="window.print()" class="bg-biu-green text-white font-bold py-2 px-6 rounded-lg hover:bg-opacity-90 transition-colors">
+                הדפסה / שמירה כ-PDF
+            </button>
+        </div>
+
+        <section class="mb-10">
+            <h3 class="text-2xl font-bold text-biu-green mb-4">שלום רב!</h3>
+            <div class="space-y-4 text-lg text-gray-800">
+                <p>אנו שמחים לקבל את פניך עם הצטרפותך לפקולטה להנדסה באוניברסיטת בר אילן.</p>
+                <p>המעבר לתפקיד חדש באקדמיה מלווה בהתרגשות לצד צורך בהתמצאות מנהלית ומחקרית. חוברת זו נכתבה על מנת לרכז את כל המידע, הטיפים ואנשי הקשר שיסייעו לך להבטיח נחיתה רכה והשתלבות מהירה ומוצלחת.</p>
+                <p>אנו עומדים לרשותך בכל שאלה, התייעצות ובקשה.</p>
+                <p class="font-semibold mt-6">בהצלחה רבה!</p>
+                <p class="font-semibold mt-6">צוות הפקולטה להנדסה</p>
+            </div>
+        </section>
+
+        <!-- Part A -->
+        <section class="mb-10">
+            <h3 class="text-2xl font-bold text-biu-green border-b-2 border-biu-light-green pb-2 mb-6">חלק א': צעדים ראשונים - צ'קליסט קליטה מנהלי</h3>
+            <p class="mb-6 text-gray-600">אלו הן התחנות המרכזיות שיש לעבור במהלך השבועיים הראשונים.</p>
+            <div class="space-y-6">
+                <div>
+                    <h4 class="text-xl font-bold text-gray-800">1. משאבי אנוש (סגל אקדמי בכיר)</h4>
+                    <ul class="list-disc list-inside mt-2 space-y-1 text-gray-700">
+                        <li><b>המשימה:</b> חתימה על חוזה העסקה, הסדרת תנאים סוציאליים.</li>
+                        <li><b>איש/אשת קשר:</b> גב' יעקובסון מיכל, מנהלת יחידת משאבי אנוש סגל אקדמי</li>
+                        <li><b>טלפון:</b> 03-5318533 | <b>מייל:</b> Michal.Jacobson@biu.ac.il </li>
+                        <li><a href="https://hr-minhali.biu.ac.il/MivneIrguni" target="_blank" class="text-blue-600 hover:underline">אתר יחידת משאבי אנוש</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold text-gray-800">2. מזכירות הפקולטה להנדסה</h4>
+                    <ul class="list-disc list-inside mt-2 space-y-1 text-gray-700">
+                        <li><b>המשימה:</b> היכרות עם צוות המזכירות, קבלת תא דואר פקולטי והתמצאות כללית.</li>
+                        <li><b>מרכזת לשכת הפקולטה:</b> גב' שימרית בן אהרון | <b>טלפון:</b> 03-7384673</li>
+                        <li><b>מרכזת סגל אקדמי:</b> גב' רעות ברייטברט | <b>טלפון:</b> 03-5317733</li>
+                        <li><b>דוא"ל כללי למזכירות:</b> segel.engbi@biu.ac.il</li>
+                        <li><a href="https://engineering.biu.ac.il/administrative-staff" target="_blank" class="text-blue-600 hover:underline">הצוות המנהלי של הפקולטה</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold text-gray-800">3. ראש מנהל הפקולטה</h4>
+                     <ul class="list-disc list-inside mt-2 space-y-1 text-gray-700">
+                        <li><b>בעל תפקיד:</b> ד"ר יוסי טליוסף.</li>
+                        <li><b>אחריות:</b> ניהול אדמיניסטרטיבי ותקציבי שוטף של הפקולטה.</li>
+                        <li><b>טלפון:</b> 03-5317733 | <b>מייל:</b> Yosef.Talyosef@biu.ac.il</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold text-gray-800">4. תשתיות מחשוב ותקשורת</h4>
+                     <ul class="list-disc list-inside mt-2 space-y-1 text-gray-700">
+                        <li><b>הקמה ראשונית (מחשוב מרכזי):</b> פתיחת שם משתמש וסיסמה ראשונית מתבצעת דרך <a href="https://inbar.biu.ac.il/live/Login.aspx" target="_blank" class="text-blue-600 hover:underline">מערכת אינ-בר</a>. איפוס סיסמה ניתן לבצע <a href="https://stuad.biu.ac.il/node/65" target="_blank" class="text-blue-600 hover:underline">לפי ההוראות כאן</a>.</li>
+                        <li><b>תמיכה פקולטית:</b> צוות המחשוב הפקולטי אחראי על ייעוץ לרכישת מחשבים וציוד נלווה, חיבור לרשת האוניברסיטה, התקנת תוכנות במחשבי המשרד והמעבדה, וטיפול בתקלות מקומיות. יש לפנות אליהם דרך <a href="http://helpdesk.eng.biu.ac.il/portal" target="_blank" class="text-blue-600 hover:underline">פורטל תמיכת המחשוב הפקולטי</a>.</li>
+                         <li><b>תמיכה מרכזית:</b> לפניות בנושאים כלל-אוניברסיטאיים, יש לפנות לגורמים הבאים:
+                            <div class="overflow-x-auto pr-4 mt-2">
+                                <table class="min-w-full bg-white border border-gray-200 text-right">
+                                    <thead class="bg-gray-50">
+                                        <tr>
+                                            <th class="py-2 px-4 border-b">נושא</th>
+                                            <th class="py-2 px-4 border-b">גורם מטפל</th>
+                                            <th class="py-2 px-4 border-b">פרטי קשר</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="py-2 px-4 border-b">תקלות בהזדהות, בתקציבים, בהרשאות, ב- Office 365</td>
+                                            <td class="py-2 px-4 border-b">מערכת תמר (דרך פורטל "בר-אילן שלי")</td>
+                                            <td class="py-2 px-4 border-b"></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="py-2 px-4 border-b">למדה (Moodle)</td>
+                                            <td class="py-2 px-4 border-b">אגף למידה והוראה</td>
+                                            <td class="py-2 px-4 border-b"><a href="mailto:bar.e-learn@biu.ac.il" class="text-blue-600 hover:underline">bar.e-learn@biu.ac.il</a> / 03-5317712</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="py-2 px-4 border-b">רישיון זום למרצים ומתרגלים</td>
+                                            <td class="py-2 px-4 border-b">אגף למידה והוראה</td>
+                                            <td class="py-2 px-4 border-b"><a href="mailto:bar.e-learn@biu.ac.il" class="text-blue-600 hover:underline">bar.e-learn@biu.ac.il</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="py-2 px-4 border-b">מאגר טפסים Share Point</td>
+                                            <td class="py-2 px-4 border-b">מערכות מידע</td>
+                                            <td class="py-2 px-4 border-b"><a href="mailto:meirav.shaar@biu.ac.il" class="text-blue-600 hover:underline">meirav.shaar@biu.ac.il</a> / 072-2644827</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="py-2 px-4 border-b">שכר - חילנט</td>
+                                            <td class="py-2 px-4 border-b">שכר</td>
+                                            <td class="py-2 px-4 border-b"><a href="mailto:Hilanet.support@biu.ac.il" class="text-blue-600 hover:underline">Hilanet.support@biu.ac.il</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="py-2 px-4 border-b">TomaGrade</td>
+                                            <td class="py-2 px-4 border-b">לימור אביבי</td>
+                                            <td class="py-2 px-4 border-b"><a href="mailto:avivil1@biu.ac.il" class="text-blue-600 hover:underline">avivil1@biu.ac.il</a> / 077-3063366</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="py-2 px-4 border-b">מערכת נמלה</td>
+                                            <td class="py-2 px-4 border-b">לשכת סגן רקטור</td>
+                                            <td class="py-2 px-4 border-b"><a href="mailto:vicerec.office@biu.ac.il" class="text-blue-600 hover:underline">vicerec.office@biu.ac.il</a> / 03-5317808</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                         </li>
+                    </ul>
+                </div>
+                 <div>
+                    <h4 class="text-xl font-bold text-gray-800">5. פניות בנושאי תשתיות</h4>
+                     <ul class="list-disc list-inside mt-2 space-y-1 text-gray-700">
+                        <li>לפניות בנושאי תשתיות (כגון מזגן, תאורה, ניקיון וכיוצ"ב), במידת הצורך, יש לפנות למוקד השירות של האוניברסיטה.</li>
+                        <li><a href="http://8000.biu.ac.il" target="_blank" class="text-blue-600 hover:underline"><b>אתר המוקד</b></a></li>
+                        <li><b>טלפון:</b> 03-5318000</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold text-gray-800">6. מחלקת הביטחון</h4>
+                     <ul class="list-disc list-inside mt-2 space-y-1 text-gray-700">
+                        <li>מחלקת הביטחון אמונה על אבטחת אוכלוסיית הקמפוס, על הסדר הציבורי שבו ומספקת מענה ראשוני למרבית הבעיות ומצבי החירום האפשריים, 24 שעות ביממה, ובכל ימות השנה.</li>
+                        <li><b>לפניות למוקד הבקרה:</b> 03-5317171</li>
+                        <li><b>למצבי חירום:</b> 03-5317777</li>
+                    </ul>
+                </div>
+                 <div>
+                    <h4 class="text-xl font-bold text-gray-800">7. יחידת התנועה והחניה</h4>
+                     <ul class="list-disc list-inside mt-2 space-y-1 text-gray-700">
+                        <li>לכל עובד/ת זכאות לאישור כניסה לקמפוס לשני רכבים.</li>
+                        <li>ניתן לבקש את האישור דרך <a href="https://bar-gate.biu.ac.il/auth/login" target="_blank" class="text-blue-600 hover:underline">מערכת הבר-גייט</a>.</li>
+                        <li>לאישורים חד יומיים עבור ספקים ונותני שירות, יש לפנות למזכירות הפקולטה.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold text-gray-800">8. ארגון הסגל האקדמי הבכיר</h4>
+                     <ul class="list-disc list-inside mt-2 space-y-1 text-gray-700">
+                        <li>ארגון הסגל האקדמי הבכיר הוא הגוף היציג של חברי הסגל (מדרגת מרצה ומעלה). הארגון פועל לקידום ענייניהם המקצועיים, תנאי העסקתם וזכויותיהם מול האוניברסיטה ומוסדות המדינה. מומלץ לתאם פגישת היכרות עם תחילת העבודה.</li>
+                        <li><b>טלפון:</b> 03-5354084 | <b>דוא"ל:</b> irgun.segel@mail.biu.ac.il</li>
+                        <li><a href="https://www.segelbiu.org.il/%D7%A2%D7%9E%D7%95%D7%93-%D7%94%D7%91%D7%99%D7%AA/" target="_blank" class="text-blue-600 hover:underline">לאתר ארגון הסגל</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Part B -->
+        <section class="mb-10">
+            <h3 class="text-2xl font-bold text-biu-green border-b-2 border-biu-light-green pb-2 mb-6">חלק ב': צוללים למחקר - המדריך לחוקר/ת הצעיר/ה</h3>
+            <div class="space-y-8">
+                <div>
+                    <h4 class="text-xl font-bold text-gray-800">רשות המחקר</h4>
+                    <p class="mt-2 text-gray-700">רשות המחקר מסייעת בקבלת מימון למחקרים, כולל הפצת 'קולות קוראים' המתאימים להגדרות החוקר, איתור שותפים למחקר, בדיקת הצעות מחקר טרם הגשתן, ניהול מו"מ על חוזי מחקר, וסיוע בדיווח הכספי והמדעי לקרנות המחקר.</p>
+                    <ul class="list-disc list-inside mt-2 space-y-1 text-gray-700">
+                         <li><b>פגישת היכרות (מומלץ בחום!):</b> כדאי ליצור קשר עם רשות המחקר בהקדם האפשרי ולתאם פגישה אישית להכיר את הצוות. בפגישה עם ראשי הדסקים הרלוונטיים לתחום המחקר שלך (למשל, דסק אירופה ל-ERC, דסק ישראל ל-ISF), תוכלו למפות יחד הזדמנויות מימון, להבין את תהליכי ההגשה הפנימיים ולבנות אסטרטגיה לשנים הקרובות.</li>
+                         <li><b>מיקום:</b> בניין 217</li>
+                         <li><b>טלפון:</b> 03-5318404</li>
+                         <li><a href="https://research.biu.ac.il/he/he/administrative-staff" target="_blank" class="text-blue-600 hover:underline">פירוט סגל רשות המחקר</a></li>
+                         <li><a href="https://research.biu.ac.il/he/FundingOptionsH" target="_blank" class="text-blue-600 hover:underline">אפשרויות מימון</a></li>
+                         <li><a href="https://research.biu.ac.il/he" target="_blank" class="text-blue-600 hover:underline">האתר הראשי של רשות המחקר</a></li>
+                    </ul>
+                </div>
+                <div>
+                     <h4 class="text-xl font-bold text-gray-800">טיפים ודגשים חשובים</h4>
+                     <div class="mt-4 p-4 border-l-4 border-biu-light-blue bg-sky-50 rounded-r-lg">
+                        <h5 class="font-bold text-sky-800">ניהול כספי מחקר ותקציבים אישיים</h5>
+                        <ul class="list-disc list-inside mt-2 space-y-2 text-gray-700">
+                            <li>
+                                <b>ניהול תקציבי מחקר:</b> הגוף המנהל את תקציב המחקר שלך תלוי במקור המימון. ניהול התקציבים וההוצאות מתבצע דרך מערכת הברנט (ובמעבר למערכת עננט).
+                                <ul class="list-[circle] list-inside ml-4 mt-1 space-y-1">
+                                    <li><b>רשות המחקר:</b> מנהלת את רובם המכריע של מענקי המחקר התחרותיים (כגון ISF, ERC, BSF, משרדי ממשלה).</li>
+                                    <li><b>BIRAD:</b> מנהלת מחקרים במימון התעשייה או בעלי פוטנציאל מסחרי.</li>
+                                    <li><b>אגף הכספים:</b> מטפל במקרים ייחודיים, כגון תרומות ייעודיות.</li>
+                                </ul>
+                            </li>
+                            <li><b>חשבון רזרבה:</b> חשבון אישי המיועד לכספים שאינם ממענק מחקר ספציפי (למשל, כספי ייעוץ, פרסים). חשבון זה גמיש יותר מבחינת ייעוד ההוצאות, אך פועל תחת מגבלות המפורטות ב"נוהל תקציב רזרבה" (ניתן לקבלו מרשות המחקר). לפתיחת חשבון יש לפנות לרשות המחקר.</li>
+                            <li><b>קרן קשרי מדע בינלאומיים (קקמ"ב):</b> לכל חבר סגל נפתח חשבון אישי אליו מופרשת הקצבה חודשית. כספים אלו מיועדים למימון פעילות מדעית כגון נסיעות לכנסים, רכישת ספרות מקצועית ועוד. ניהול הנסיעות והוצאות הקקמ"ב מתבצע דרך מערכת פספורט.</li>
+                        </ul>
+                     </div>
+                     <div class="mt-4 p-4 border-l-4 border-biu-light-green bg-green-50 rounded-r-lg">
+                        <h5 class="font-bold text-biu-green">דגשים לניסיונאים - בטיחות במעבדה</h5>
+                         <ul class="list-disc list-inside mt-2 space-y-2 text-gray-700">
+                            <li><b>יום בטיחות שנתי:</b> מתקיים מדי שנה, בדרך כלל בחודש אוקטובר. ההשתתפות היא חובה לכלל עובדי ושוהי המעבדות, גם למי שאינו מבצע "עבודה רטובה".</li>
+                            <li><b>הדרכות פרטניות:</b> העבודה השוטפת במעבדה מותנית בסיום כל הדרכות הבטיחות הנדרשות. יש לתאם הדרכות אלו מול הגורמים הרלוונטיים.</li>
+                            <li><b>אנשי קשר מרכזיים במדור הבטיחות:</b>
+                                <ul class="list-[circle] list-inside ml-4 mt-2 space-y-1">
+                                    <li><b>ראש מדור בטיחות:</b> ד"ר חגית קון | טלפון: 03-5317919 | מייל: Hagit.Kun@biu.ac.il</li>
+                                    <li><b>בטיחות כימית ופינוי פסולת:</b> ד"ר עודד פרידמן | טלפון: 03-5317206 | מייל: oded.friedman@biu.ac.il</li>
+                                    <li><b>בטיחות ביולוגית (מחוללי מחלות, בע"ח):</b> ד"ר עמי ינאי | טלפון: 03-5317717 | מייל: amiel.yanai@biu.ac.il</li>
+                                </ul>
+                            </li>
+                            <li><a href="https://www2.biu.ac.il/safety/index.html" target="_blank" class="text-blue-600 hover:underline"><b>אתר מדור הבטיחות בקמפוס</b></a> - מכיל נהלים, מידע ופרטי קשר נוספים.</li>
+                        </ul>
+                     </div>
+                     <div class="mt-4 p-4 border-l-4 border-biu-brown bg-amber-50 rounded-r-lg">
+                        <h5 class="font-bold text-biu-brown">רכש ציוד וחומרים</h5>
+                         <ul class="list-disc list-inside mt-2 space-y-2 text-gray-700">
+                            <li>מחלקת הרכש המרכזית מטפלת בכל הזמנות הציוד והחומרים, המתבצעות דרך מערכת הברנט (ובמעבר למערכת עננט). <a href="https://tiful.biu.ac.il/purchasing" target="_blank" class="text-blue-600 hover:underline"><b>לאתר מחלקת הרכש</b></a>.</li>
+                            <li><b>כימיקלים וציוד מדעי:</b> ניתן להתייעץ עם הקניינים המתאימים. <a href="https://tiful.biu.ac.il/node/629" target="_blank" class="text-blue-600 hover:underline">פרטי הקניינים בקישור כאן</a>.</li>
+                            <li><b>ציוד מחשוב:</b> מומלץ להתייעץ תחילה עם צוות התמיכה הפקולטי, ולאחר מכן עם הקניינית קארין קציר | טלפון: 03-5317379 | מייל: karin.katzir@biu.ac.il.</li>
+                             <li><b>ציוד כללי (שאינו למחקר):</b> יש לפנות לקניינית איריס כהן | טלפון: 03-5317380 | מייל: Iris.Cohen-M@biu.ac.il.</li>
+                            <li><b>רכש מחו"ל:</b> עבור כל רכש ישיר מחו"ל (כולל תשלום על פרסום מאמרים, שירותים מדעיים, ומשלוחים), יש לפנות למדור חו"ל. ראש המדור: שי שובל | טלפון: 03-7384335 | מייל: shy.shuval@biu.ac.il.</li>
+                        </ul>
+                     </div>
+                     <div class="mt-4 p-4 border-l-4 border-biu-ochre bg-yellow-50 rounded-r-lg">
+                        <h5 class="font-bold text-biu-brown">תוספות שכר בגין מחקר</h5>
+                        <ul class="list-disc list-inside mt-2 space-y-1 text-gray-700">
+                            <li>חברי סגל אקדמי בכיר במשרה מלאה, המשמשים חוקרים ראשיים, זכאים בתנאים מסוימים לתוספת שכר בגין מחקרים במימון חיצוני.</li>
+                            <li><b>תוספת א':</b> משולמת מכספי המענק עצמו, בקרנות המאפשרות זאת. גובה התוספת נקבע לפי גובה המענק השנתי (למשל, עד 50% מהשכר למענקים מעל $75,001).</li>
+                            <li><b>תוספת ב':</b> משולמת מתקציב האוניברסיטה, עבור מענקים שאינם מתירים תשלום שכר לחוקר. גובה התוספת נקבע לפי גובה המענק השנתי (למשל, 25% מהשכר למענקים מעל $45,001).</li>
+                            <li>קיימים כללים נוספים לגבי זכאות (למשל, בזמן שבתון) ולגבי חוקרים המחזיקים במספר מענקים במקביל. לקבלת המידע המלא והמדויק, יש להתייעץ עם רשות המחקר.</li>
+                        </ul>
+                     </div>
+                     <div class="mt-4 p-4 border-l-4 border-biu-light-blue bg-sky-50 rounded-r-lg">
+                        <h5 class="font-bold text-sky-800">הוראה וסטודנטים</h5>
+                        <ul class="list-disc list-inside mt-2 space-y-2 text-gray-700">
+                            <li><b>שיבוץ לקורסים:</b> שיבוץ הקורסים נעשה על ידי ועדת ההוראה הפקולטית בתיאום איתך.</li>
+                            <li><b>מערכת Moodle:</b> זוהי מערכת ניהול הלמידה המרכזית. יש להעלות אליה את כל חומרי הקורס. הדרכות זמינות דרך <a href="https://learning-and-teaching.biu.ac.il/" target="_blank" class="text-blue-600 hover:underline">"אגף הלמידה וההוראה"</a>.</li>
+                            <li><b>גיוס סטודנטים לתארים מתקדמים:</b> ניתן לפרסם משרות פנויות במעבדה דרך אתר הפקולטה, מזכירות תארים מתקדמים, וביום פתוח לתארים מתקדמים המתקיים פעם בשנה.</li>
+                        </ul>
+                     </div>
+                </div>
+                 <div>
+                    <h4 class="text-xl font-bold text-gray-800 mb-4">מענקי מחקר עיקריים ומועדים משוערים</h4>
+                    <p class="mb-4 text-gray-600">תהליך הגשת הצעת מחקר כולל מספר שלבים מרכזיים: איתור 'קול קורא' רלוונטי, כתיבת ההצעה, בניית תקציב, קבלת אישורים פנימיים (ראש מחלקה ורשות המחקר), ולבסוף הגשה לגורם המממן. צוות רשות המחקר מלווה את התהליך כולו.</p>
+                    <div class="overflow-x-auto">
+                        <table class="min-w-full bg-white border border-gray-200 text-right">
+                            <thead class="bg-green-50">
+                                <tr>
+                                    <th class="py-2 px-4 border-b text-biu-green">שם המענק</th>
+                                    <th class="py-2 px-4 border-b text-biu-green">הגוף המממן</th>
+                                    <th class="py-2 px-4 border-b text-biu-green">מועד הגשה משוער</th>
+                                    <th class="py-2 px-4 border-b text-biu-green">הערות</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="py-2 px-4 border-b font-semibold">תכניות הקרן הלאומית למדע (ISF)</td>
+                                    <td class="py-2 px-4 border-b"><a href="https://www.isf.org.il/#/" target="_blank" class="text-blue-600 hover:underline">ISF</a></td>
+                                    <td class="py-2 px-4 border-b">נובמבר</td>
+                                    <td class="py-2 px-4 border-b text-sm">תכנית מענק אישי היא הגדולה והמקיפה ביותר מכל תכניות הליבה של הקרן. תכנית זו תומכת במחקר בסיסי בכל תחומי המדעים. התכנית נפתחת מדי שנה. בנוסף, מפעילה הקרן תכניות ייעודיות כגון: מפ"צ- מחקרים פורצי דרך, מבריא – למחקר ביו-רפואי, שת"פ שוויץ, שת"פ גרמניה, בראשית- לחוקרים חוזרים/עולים, סדנאות מחקר למענקי הקרן, ציוד להקמת מעבדה חדשה (ניתן להגיש בקשה נלוית לגרנט אישי בשלוש השנים הראשונות), ציוד לחברי סגל באמצע דרכם האקדמית ועוד. במידה וברשותך מענק מחקר פעיל, עליך לבדוק את טבלת הזכאות של הקרן לגבי הגשה לתכנית אחרת באותו מחזור הגשה.</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-2 px-4 border-b font-semibold">מענקים לחוקרים צעירים / מבוססים</td>
+                                    <td class="py-2 px-4 border-b"><a href="https://erc.europa.eu/apply-grant/starting-grant" target="_blank" class="text-blue-600 hover:underline">ERC (European Research Council)</a></td>
+                                    <td class="py-2 px-4 border-b">אוקטובר</td>
+                                    <td class="py-2 px-4 border-b">מענקים אישיים יוקרתיים ותחרותיים מאוד לחוקרים בכל שלבי הקריירה (Starting, Consolidator, Advanced).</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-2 px-4 border-b font-semibold">מענק דו-לאומי (ישראל-ארה"ב)</td>
+                                    <td class="py-2 px-4 border-b"><a href="https://www.bsf.org.il/funding-opportunities/bsf-research-grants/about/" target="_blank" class="text-blue-600 hover:underline">BSF (Binational Science Foundation)</a></td>
+                                    <td class="py-2 px-4 border-b">נובמבר</td>
+                                    <td class="py-2 px-4 border-b text-sm">מממנת מחקרים משותפים לחוקרים מישראל וארה"ב בתחומי המדע הבסיסי. הקרן מחולקת למספר תוכניות מימון, בהן התוכנית השנתית הרגילה למענקי מחקר, תכניות שיתוף פעולה NSF-BSF, מענק BSF צעירים (Start-Up) ועוד.</td>
+                                </tr>
+                                 <tr>
+                                    <td class="py-2 px-4 border-b font-semibold">מענק דו-לאומי (ישראל-גרמניה)</td>
+                                    <td class="py-2 px-4 border-b"><a href="https://www.gif.org.il/" target="_blank" class="text-blue-600 hover:underline">GIF (German-Israeli Foundation)</a></td>
+                                    <td class="py-2 px-4 border-b">משתנה</td>
+                                    <td class="py-2 px-4 border-b">דורש שיתוף פעולה עם חוקר/ת מגרמניה.</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-2 px-4 border-b font-semibold">מענקים שונים</td>
+                                    <td class="py-2 px-4 border-b"><a href="https://www.dfg.de/en/research-funding" target="_blank" class="text-blue-600 hover:underline">DFG (German Research Foundation)</a></td>
+                                    <td class="py-2 px-4 border-b">משתנה</td>
+                                    <td class="py-2 px-4 border-b text-sm">קרן המחקר המרכזית של גרמניה. מומלץ להתייעץ עם צוות מדור הגשות לגבי הגשה לקרן זו.</td>
+                                </tr>
+                                 <tr>
+                                    <td class="py-2 px-4 border-b font-semibold">שת"פ גרמניה-ישראל (DIP)</td>
+                                    <td class="py-2 px-4 border-b"><a href="https://www.dfg.de/en/research-funding/funding-opportunities/programmes/international-cooperation/german-israeli-cooperation" target="_blank" class="text-blue-600 hover:underline">DFG (German-Israeli Cooperation)</a></td>
+                                    <td class="py-2 px-4 border-b">משתנה</td>
+                                    <td class="py-2 px-4 border-b text-sm">תכנית ייעודית לשיתוף פעולה עם חוקרים מגרמניה, תחת קרן DFG.</td>
+                                </tr>
+                                 <tr>
+                                    <td class="py-2 px-4 border-b font-semibold">תוכניות משרד החדשנות</td>
+                                    <td class="py-2 px-4 border-b"><a href="https://www.gov.il/he/departments/units/most_chief_scientist" target="_blank" class="text-blue-600 hover:underline">משרד החדשנות, המדע והטכנולוגיה</a></td>
+                                    <td class="py-2 px-4 border-b">משתנה לאורך השנה</td>
+                                    <td class="py-2 px-4 border-b text-sm">משרד המדע מציע מענקים בארבעה מסלולים עיקריים: <b>מענק מחקר לאומי</b> (לחוקרים בישראל בלבד), <b>מענק מחקר בינלאומי</b> (שת"פ בינלאומי), <b>מרכז ידע לאומי</b> (הנגשת תשתיות), ו<b>מלגות סטודנטים</b> (למגזרים ותחומים בעדיפות לאומית).</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-2 px-4 border-b font-semibold">מענקי חקר הסרטן</td>
+                                    <td class="py-2 px-4 border-b"><a href="https://www.icrfonline.org/" target="_blank" class="text-blue-600 hover:underline">ICRF (Israel Cancer Research Fund)</a></td>
+                                    <td class="py-2 px-4 border-b">משתנה</td>
+                                    <td class="py-2 px-4 border-b">למחקרים בתחום חקר הסרטן.</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-2 px-4 border-b font-semibold">מענקי מדעי החיים</td>
+                                    <td class="py-2 px-4 border-b"><a href="https://www.hfsp.org/funding/hfsp-funding/research-grants" target="_blank" class="text-blue-600 hover:underline">HFSP (Human Frontier Science Program)</a></td>
+                                    <td class="py-2 px-4 border-b">משתנה</td>
+                                    <td class="py-2 px-4 border-b">למחקרים פורצי דרך ובינתחומיים במדעי החיים.</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-2 px-4 border-b font-semibold">מענקי מחקר</td>
+                                    <td class="py-2 px-4 border-b"><a href="https://www.gov.il/he/departments/units/office-of-the-chief-scientist/govil-landing-page" target="_blank" class="text-blue-600 hover:underline">קרנות המדען הראשי של משרד הבריאות</a></td>
+                                    <td class="py-2 px-4 border-b">משתנה</td>
+                                    <td class="py-2 px-4 border-b">קולות קוראים בתחומי הבריאות והרפואה.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Part C & D -->
+        <section class="mb-10">
+            <h3 class="text-2xl font-bold text-biu-green border-b-2 border-biu-light-green pb-2 mb-6">חלק ג': משאבים נוספים</h3>
+             <div class="space-y-6">
+                <div>
+                    <h4 class="text-xl font-bold text-gray-800">ספרייה ומידענות</h4>
+                     <ul class="list-disc list-inside mt-2 space-y-1 text-gray-700">
+                        <li><b>העלאת אתר מעבדה:</b> <b>גב' יוליה אלמוג</b> היא הספרנית האחראית על תמיכה בחוקרי הפקולטה להנדסה. היא מסייעת, בין היתר, בהקמה ובעדכון של אתרי המעבדות של חברי הסגל. מומלץ מאוד לקבוע איתה פגישה.</li>
+                        <li><b>פרטי קשר (יוליה):</b> טלפון: 03-5317677 | מייל: engineering.library@biu.ac.il</li>
+                        <li><b>שירותים נוספים:</b> גישה למאגרי מידע, הזמנת מאמרים וספרים, הדרכות על כלי ניהול ביבליוגרפי (Mendeley, EndNote).</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Part E: Useful Websites -->
+        <section class="mb-10">
+            <h3 class="text-2xl font-bold text-biu-green border-b-2 border-biu-light-green pb-2 mb-6">חלק ד': אתרים וקישורים שימושיים</h3>
+            <div class="space-y-6">
+                <div class="p-4 bg-gray-50 rounded-lg">
+                    <h4 class="text-xl font-bold text-biu-green">פורטל "בר-אילן שלי"</h4>
+                    <p class="mt-2 text-gray-700">זהו שער הכניסה המרכזי לכלל השירותים הדיגיטליים באוניברסיטה. מומלץ לשמור קישור זה במועדפים. <a href="https://biu365.sharepoint.com/#" target="_blank" class="text-blue-600 hover:underline">קישור ישיר לפורטל</a>.</p>
+                    <p class="mt-4 text-gray-700 font-semibold">מהפורטל ניתן להגיע, בין היתר, לשירותים הבאים:</p>
+                    <ul class="list-disc list-inside mt-2 space-y-2 text-gray-700 grid grid-cols-1 md:grid-cols-2 gap-x-8">
+                        <li><b>Outlook:</b> גישה לדואר האלקטרוני.</li>
+                        <li><b>מערכת תמר:</b> פתיחת קריאות שירות לתקלות מחשוב ותקשורת.</li>
+                        <li><b>חילנט:</b> צפייה בתלושי שכר ונתונים אישיים.</li>
+                        <li><b>בר-גייט:</b> מערכת אישורי כניסה לרכב לקמפוס.</li>
+                        <li><b>פספורט:</b> מערכת ניהול נסיעות לחו"ל.</li>
+                        <li><b>עננט:</b> מערכת הזמנת ציוד וחומרים למעבדות.</li>
+                    </ul>
+                </div>
+
+                <div class="p-4 bg-gray-50 rounded-lg mt-6">
+                    <h4 class="text-xl font-bold text-gray-800">קישורים פקולטיים ומחקריים</h4>
+                    <ul class="list-none mt-2 space-y-3 text-gray-700">
+                        <li>
+                            <b class="text-biu-green">אתר הפקולטה להנדסה:</b>
+                            <a href="https://engineering.biu.ac.il/" target="_blank" class="block text-blue-600 hover:underline" dir="ltr">https://engineering.biu.ac.il/</a>
+                            <p class="text-sm text-gray-600">האתר המרכזי למידע על הפקולטה, תוכניות לימוד, חוקרים וחדשות.</p>
+                        </li>
+                        <li>
+                            <b class="text-biu-green">הסגל המנהלי של הפקולטה:</b>
+                            <a href="https://engineering.biu.ac.il/administrative-staff" target="_blank" class="block text-blue-600 hover:underline" dir="ltr">https://engineering.biu.ac.il/administrative-staff</a>
+                            <p class="text-sm text-gray-600">רשימת אנשי קשר, טלפונים ומיילים של כלל הסגל המנהלי בפקולטה.</p>
+                        </li>
+                        <li>
+                            <b class="text-biu-green">מאגר טפסים ותקנונים:</b>
+                            <a href="https://engineering.biu.ac.il/node/9216" target="_blank" class="block text-blue-600 hover:underline" dir="ltr">https://engineering.biu.ac.il/node/9216</a>
+                            <p class="text-sm text-gray-600">קישורים לכלל הטפסים, הנהלים והתקנונים הרלוונטיים בפקולטה.</p>
+                        </li>
+                        <li>
+                            <b class="text-biu-green">תמיכת מחשוב פקולטית (Helpdesk):</b>
+                            <a href="http://helpdesk.eng.biu.ac.il/portal" target="_blank" class="block text-blue-600 hover:underline" dir="ltr">http://helpdesk.eng.biu.ac.il/portal</a>
+                            <p class="text-sm text-gray-600">הפורטל הייעודי לפתיחת קריאות שירות בנושאי מחשוב הקשורים ישירות לפקולטה.</p>
+                        </li>
+                        <li>
+                            <b class="text-biu-green">אתר רשות המחקר:</b>
+                            <a href="https://research.biu.ac.il/he" target="_blank" class="block text-blue-600 hover:underline" dir="ltr">https://research.biu.ac.il/he</a>
+                            <p class="text-sm text-gray-600">האתר המרכזי למידע על מענקים, נהלים, ורשימת אנשי קשר ברשות המחקר.</p>
+                        </li>
+                        <li>
+                            <b class="text-biu-green">מפת הקמפוס:</b>
+                            <a href="https://www.biu.ac.il/sites/default/files/inline-files/campus%20map.pdf" target="_blank" class="block text-blue-600 hover:underline" dir="ltr">https://.../campus%20map.pdf</a>
+                            <p class="text-sm text-gray-600">מפת התמצאות בקמפוס (קובץ PDF להורדה והדפסה).</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- New Part F -->
+        <section class="mb-10">
+            <h3 class="text-2xl font-bold text-biu-green border-b-2 border-biu-light-green pb-2 mb-6">חלק ה': קניין רוחני ואתיקה במחקר</h3>
+            <div class="space-y-6">
+                <div>
+                    <h4 class="text-xl font-bold text-gray-800">קניין רוחני, פטנטים ומסחור (BIRAD)</h4>
+                    <ul class="list-disc list-inside mt-2 space-y-1 text-gray-700">
+                        <li>על פי תקנון האוניברסיטה, כל קניין רוחני (IP) שנוצר על ידי עובד או סטודנט במסגרת עבודתו או מחקרו באוניברסיטה, שייך לאוניברסיטה.</li>
+                        <li><b>BIRAD (בר-אילן חברה למחקר ופיתוח)</b> היא חברת היישום והמסחור של האוניברסיטה. תפקידה להגן על הקניין הרוחני ולמסחר אותו.</li>
+                        <li><b>חשוב ביותר:</b> אם הגעת לתגלית שעשויה להיות בסיס לפטנט, חובה לדווח על כך לוועדת התגליות ול-BIRAD <b>לפני</b> כל פרסום פומבי (מאמר, הרצאה בכנס, פוסטר וכו'). פרסום מוקדם עלול לפסול את האפשרות לרשום פטנט.</li>
+                        <li><a href="http://birad.biu.ac.il" target="_blank" class="text-blue-600 hover:underline">לאתר BIRAD</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold text-gray-800">ניגוד עניינים במחקר</h4>
+                    <ul class="list-disc list-inside mt-2 space-y-1 text-gray-700">
+                        <li>ניגוד עניינים מתקיים כאשר שיקול אישי, מקצועי או כלכלי עלול להשפיע או להיראות כמשפיע על שיקול הדעת המקצועי והאובייקטיביות במחקר.</li>
+                        <li>חלה חובת גילוי מלאה ושקופה. יש לדווח לרשות המחקר על כל ניגוד עניינים פוטנציאלי, נחזה או ממשי, מיד עם היווצרו.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold text-gray-800">נאותות והתנהגות מדעית</h4>
+                    <ul class="list-disc list-inside mt-2 space-y-1 text-gray-700">
+                        <li>האוניברסיטה מחויבת לשמירה על הסטנדרטים הגבוהים ביותר של אתיקה ויושרה במחקר.</li>
+                        <li><a href="https://acad-sec.biu.ac.il/node/69" target="_blank" class="text-blue-600 hover:underline">תקנונים ונהלים</a> הנוגעים לסגל האקדמי, כולל קוד אתי, ניתן למצוא באתר המזכירות האקדמית.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Appendix -->
+        <section>
+             <h3 class="text-2xl font-bold text-biu-green border-b-2 border-biu-light-green pb-2 mb-6">נספח: רשימת אנשי קשר מהירה</h3>
+             <div class="overflow-x-auto">
+                <table class="min-w-full bg-white border border-gray-200">
+                     <thead class="bg-green-50">
+                        <tr>
+                            <th class="py-2 px-4 border-b text-right text-biu-green">תפקיד</th>
+                            <th class="py-2 px-4 border-b text-right text-biu-green">שם</th>
+                            <th class="py-2 px-4 border-b text-right text-biu-green">טלפון</th>
+                            <th class="py-2 px-4 border-b text-right text-biu-green">מייל</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="py-2 px-4 border-b">דיקנית הפקולטה (קומה 4)</td>
+                            <td class="py-2 px-4 border-b">פרופ' אורית שפי</td>
+                            <td class="py-2 px-4 border-b">03-5317733</td>
+                            <td class="py-2 px-4 border-b">orit.shefi@biu.ac.il</td>
+                        </tr>
+                         <tr>
+                            <td class="py-2 px-4 border-b">ראש מנהל הפקולטה (קומה 4)</td>
+                            <td class="py-2 px-4 border-b">ד"ר יוסי טליוסף</td>
+                            <td class="py-2 px-4 border-b">03-5317733</td>
+                            <td class="py-2 px-4 border-b">Yosef.Talyosef@biu.ac.il</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 px-4 border-b">מזכירות הפקולטה (קומה 4)</td>
+                            <td class="py-2 px-4 border-b"></td>
+                            <td class="py-2 px-4 border-b">03-5317733</td>
+                            <td class="py-2 px-4 border-b">Segel.Engbi@biu.ac.il</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 px-4 border-b">מזכירות תואר ראשון (קומה 1)</td>
+                            <td class="py-2 px-4 border-b"></td>
+                            <td class="py-2 px-4 border-b">03-5317633</td>
+                            <td class="py-2 px-4 border-b">Undergradsec.Engfaculty@biu.ac.il</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 px-4 border-b">מזכירות תארים מתקדמים (קומה 1)</td>
+                            <td class="py-2 px-4 border-b"></td>
+                            <td class="py-2 px-4 border-b">03-7384634</td>
+                            <td class="py-2 px-4 border-b">gradsec.engfaculty@biu.ac.il</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 px-4 border-b">תמיכה טכנית (מחשוב) (קומה 1)</td>
+                            <td class="py-2 px-4 border-b">צוות תמיכת מחשוב</td>
+                            <td class="py-2 px-4 border-b">03-5317033</td>
+                            <td class="py-2 px-4 border-b">eng.support@biu.ac.il</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 px-4 border-b">ספרנית אחראית (יוליה) (קומה 1)</td>
+                            <td class="py-2 px-4 border-b">גב' יוליה אלמוג</td>
+                            <td class="py-2 px-4 border-b">03-5317677</td>
+                            <td class="py-2 px-4 border-b">engineering.library@biu.ac.il</td>
+                        </tr>
+                    </tbody>
+                </table>
+             </div>
+        </section>
+        
+        <div class="mt-12 text-center text-gray-500 text-sm no-print">
+            <p>חוברת זו נוצרה כדי לסייע בקליטתך. נשמח לעמוד לרשותך בכל עת.</p>
+            <p>הפקולטה להנדסה, אוניברסיטת בר-אילן</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
+
