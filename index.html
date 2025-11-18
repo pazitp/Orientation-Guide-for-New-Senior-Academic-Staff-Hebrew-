@@ -21,43 +21,46 @@
 
         /* --- הגדרת צבעים ידנית (CSS) --- */
         
-        :root {
-            --biu-green: #004128;       /* ירוק כהה (ראשי) */
-            --biu-mint-white: #F5FAF0;  /* רקע מנטה */
-            --biu-green-light: #87CD7D; /* ירוק בהיר */
-            --biu-cream: #E5DC8D;       /* קרם */
-            --biu-brown: #887029;       /* חום (מתאים לטקסט על קרם) */
-        }
-
         /* טקסטים */
-        .text-biu-green { color: var(--biu-green) !important; }
-        .text-biu-brown { color: var(--biu-brown) !important; }
+        .text-biu-green { color: #004128 !important; }
+        .text-biu-light-green { color: #87CD7D !important; }
+        .text-biu-brown { color: #887029 !important; }
+        .text-sky-900 { color: #0c4a6e !important; }
         
-        /* רקעים ומסגרות כלליים */
-        .bg-biu-green { background-color: var(--biu-green) !important; }
-        .border-biu-green { border-color: var(--biu-green) !important; }
-        .border-biu-green-light { border-color: var(--biu-green-light) !important; }
-
-        /* --- עיצוב המלבנים המתחלפים --- */
+        /* רקעים */
+        .bg-biu-green { background-color: #004128 !important; }
+        .bg-biu-mint-white { background-color: #F5FAF0 !important; }
+        .bg-white { background-color: #ffffff !important; }
         
-        /* 1. מלבן קרם */
-        .info-box-cream {
-            background-color: #fafaf9 !important; /* רקע בהיר מאוד */
-            border-right: 5px solid var(--biu-cream) !important;
-        }
-        .info-box-cream h5 {
-            color: var(--biu-brown) !important; /* כותרת חומה */
-        }
+        /* מסגרות */
+        .border-biu-green { border-color: #004128 !important; }
+        .border-biu-light-green { border-color: #87CD7D !important; }
+        .border-biu-light-blue { border-color: #78CDE6 !important; }
+        .border-biu-brown { border-color: #887029 !important; }
+        .border-biu-ochre { border-color: #EAB941 !important; }
+        .border-biu-cream { border-color: #E5DC8D !important; }
 
-        /* 2. מלבן ירוק בהיר */
+        /* עיצובים ספציפיים למלבני מידע */
+        .info-box-blue {
+            background-color: #f0f9ff !important; /* sky-50 */
+            border-right: 4px solid #78CDE6 !important;
+        }
         .info-box-green {
-            background-color: #f0fdf4 !important; /* רקע ירקרק בהיר */
-            border-right: 5px solid var(--biu-green-light) !important;
+            background-color: #f0fdf4 !important; /* green-50 */
+            border-right: 4px solid #87CD7D !important;
         }
-        .info-box-green h5 {
-            color: var(--biu-green) !important; /* כותרת ירוקה כהה */
+        .info-box-cream {
+            background-color: #fafaf9 !important; /* stone-50 */
+            border-right: 4px solid #E5DC8D !important;
         }
-
+        .info-box-brown {
+            background-color: #fffbeb !important; /* amber-50 */
+            border-right: 4px solid #887029 !important;
+        }
+        .info-box-ochre {
+            background-color: #FEF9C3 !important; /* yellow-100 */
+            border-right: 4px solid #EAB941 !important;
+        }
 
         /* רקע משבצות עדין */
         .bg-grid-pattern {
@@ -110,7 +113,8 @@
             <div class="space-y-4 text-lg text-gray-800 leading-relaxed">
                 <p>אנו שמחים לקבל את פניך עם הצטרפותך לפקולטה להנדסה באוניברסיטת בר אילן.</p>
                 <p>המעבר לתפקיד חדש באקדמיה מלווה בהתרגשות לצד צורך בהתמצאות מנהלית ומחקרית. חוברת זו נכתבה על מנת לרכז את כל המידע, הטיפים ואנשי הקשר שיסייעו לך להבטיח נחיתה רכה והשתלבות מהירה ומוצלחת.</p>
-                <p>אם נתקלתם בבעיות שלא מצאתם להן מענה בחוברת זו, אתם מוזמנים לפנות למזכירות הפקולטה או ישירות אליי במייל: <a href="mailto:pazit.polak@biu.ac.il" class="text-blue-600 hover:underline">pazit.polak@biu.ac.il</a>.</p>
+                <p>חוברת זו מתעדכנת מעת לעת כאשר עולות שאלות מהשטח שהתשובות עליהן עשויות לסייע לחברי סגל נוספים, או כאשר מתעדכנים נהלים חדשים באוניברסיטה.</p>
+                <p>אם נתקלתם בבעיות או שאלות שלא מצאתם להן מענה בחוברת זו, אתם מוזמנים לפנות אל ד"ר פזית פולק (עוזרת דיקאן לעניינים אקדמיים) במייל: <a href="mailto:pazit.polak@biu.ac.il" class="text-blue-600 hover:underline">pazit.polak@biu.ac.il</a>.</p>
                 <p>אנו עומדים לרשותך בכל שאלה, התייעצות ובקשה.</p>
                 <p class="font-semibold mt-6 text-biu-green">בהצלחה רבה!</p>
                 <p class="font-semibold">צוות הפקולטה להנדסה</p>
@@ -220,7 +224,7 @@
                 </div>
                  <div>
                     <h4 class="text-xl font-bold text-gray-800 flex items-center">
-                        <span class="text-biu-light-green ml-2">5.</span> פניות בנושאי תשתיות (מוקד 8000)
+                        <span class="text-biu-green-light ml-2">5.</span> פניות בנושאי תשתיות (מוקד 8000)
                     </h4>
                      <ul class="list-disc list-inside mt-2 space-y-1 text-gray-700 pr-6">
                         <li>לדיווח על תקלות אחזקה (מזגן, תאורה, ניקיון וכיוצ"ב), ניתן לפתוח קריאת שירות דרך:
@@ -235,7 +239,7 @@
                 </div>
                 <div>
                     <h4 class="text-xl font-bold text-gray-800 flex items-center">
-                        <span class="text-biu-light-green ml-2">6.</span> מחלקת הביטחון
+                        <span class="text-biu-green-light ml-2">6.</span> מחלקת הביטחון
                     </h4>
                      <ul class="list-disc list-inside mt-2 space-y-1 text-gray-700 pr-6">
                         <li>מחלקת הביטחון אמונה על אבטחת אוכלוסיית הקמפוס, על הסדר הציבורי שבו ומספקת מענה ראשוני למרבית הבעיות ומצבי החירום האפשריים, 24 שעות ביממה, ובכל ימות השנה.</li>
@@ -245,7 +249,7 @@
                 </div>
                  <div>
                     <h4 class="text-xl font-bold text-gray-800 flex items-center">
-                        <span class="text-biu-light-green ml-2">7.</span> יחידת התנועה והחניה
+                        <span class="text-biu-green-light ml-2">7.</span> יחידת התנועה והחניה
                     </h4>
                      <ul class="list-disc list-inside mt-2 space-y-1 text-gray-700 pr-6">
                         <li>לכל עובד/ת זכאות לאישור כניסה לקמפוס לשני רכבים.</li>
@@ -263,7 +267,7 @@
                 </div>
                 <div>
                     <h4 class="text-xl font-bold text-gray-800 flex items-center">
-                        <span class="text-biu-light-green ml-2">8.</span> ארגון הסגל האקדמי הבכיר
+                        <span class="text-biu-green-light ml-2">8.</span> ארגון הסגל האקדמי הבכיר
                     </h4>
                      <ul class="list-disc list-inside mt-2 space-y-1 text-gray-700 pr-6">
                         <li>ארגון הסגל האקדמי הבכיר הוא הגוף היציג של חברי הסגל (מדרגת מרצה ומעלה). הארגון פועל לקידום ענייניהם המקצועיים, תנאי העסקתם וזכויותיהם מול האוניברסיטה ומוסדות המדינה. מומלץ לתאם פגישת היכרות עם תחילת העבודה.</li>
@@ -368,15 +372,15 @@
                      
                      <!-- 5. רכש ציוד וחומרים - קרם -->
                      <div class="mt-6 p-5 rounded-lg shadow-sm info-box-cream">
-                        <h5 class="font-bold text-lg mb-3">רכש ציוד וחומרים</h5>
+                        <h5 class="font-bold text-lg mb-3" style="color: #887029;">רכש ציוד, חומרים ושירותים</h5>
                          <ul class="list-disc list-inside mt-2 space-y-2 text-gray-700">
                             <li>מחלקת הרכש המרכזית מטפלת בכל הזמנות הציוד והחומרים, המתבצעות דרך מערכת הברנט (ובמעבר למערכת עננט). <a href="https://tiful.biu.ac.il/purchasing" target="_blank" class="text-blue-600 hover:underline"><b>לאתר מחלקת הרכש</b></a>.</li>
                             <li><b>גישה ראשונית לברנט:</b> לאחר שרשות המחקר מקבלת מסגן הנשיא למחקר את מספר התקציב הראשוני של סל הקליטה, בילי מיקנובסקי (מרשות המחקר) מיידעת את החוקר במייל, ואז יש לפתוח קריאה במערכת תמר לצורך פתיחת משתמש.</li>
                             <li><b>שימו לב:</b> לפני ביצוע הרכישה הראשונה דרך מערכת הברנט, יש לפנות לצוות תמיכת המחשוב של הפקולטה. הצוות יבצע יחד איתך את הרכישה הראשונה ויעביר הדרכה מפורטטת על השימוש במערכת.</li>
                             <li><b>כימיקלים וציוד מדעי:</b> ניתן להתייעץ עם הקניינים המתאימים. <a href="https://tiful.biu.ac.il/node/629" target="_blank" class="text-blue-600 hover:underline">פרטי הקניינים בקישור כאן</a>.</li>
-                            <li><b>רכש מחשבים וציוד היקפי:</b> בכל רכש הקשור למחשבים וציוד היקפי, חובה לפנות תחילה לייעוץ עם צוות המחשוב של הפקולטה (לקבלת מחירונים וייעוץ טכני), ולאחר מכן לקניינית קארין קציר | טלפון: 03-5317379 | מייל: karin.katzir@biu.ac.il.</li>
+                            <li><b>רכש מחשבים וציוד היקפי:</b> בכל רכש הקשור למחשבים וציוד היקפי, חובה לפנות תחילה לייעוץ עם צוות המחשוב של הפקולטה לקבלת מחירונים וייעוץ טכני. לאחר מכן ניתן לפנות לעזרה גם לקניינית קארין קציר | טלפון: 03-5317379 | מייל: karin.katzir@biu.ac.il.</li>
                              <li><b>ציוד כללי (שאינו למחקר):</b> יש לפנות לקניינית איריס כהן | טלפון: 03-5317380 | מייל: Iris.Cohen-M@biu.ac.il.</li>
-                            <li><b>תשלומים לחו"ל (ללא אספקה פיזית):</b> עבור רכישות בחו"ל שאינן מלוות באספקת מוצר פיזי (כגון תשלום על פרסום מאמרים או שירותים בחו"ל), התהליך אינו מתבצע בברנט. יש למלא <a href="https://biu365.sharepoint.com/formsFiles/%D7%91%D7%A7%D7%A9%D7%94-%D7%9C%D7%AA%D7%A9%D7%9C%D7%95%D7%9D-%D7%91%D7%9E%D7%98%D7%91%D7%A2-%D7%96%D7%A8-%D7%91%D7%97%D7%95%D7%9C-12.2024.docx" target="_blank" class="text-blue-600 hover:underline">טופס בקשה לתשלום במט"ח</a> ולשלוח אותו בצירוף החשבונית אל <b>שי שובל</b>, ראש מדור חו"ל (<a href="mailto:shy.shuval@biu.ac.il" class="text-blue-600 hover:underline">shy.shuval@biu.ac.il</a>).</li>
+                            <li><b>תשלומים לחו"ל (ללא אספקה פיזית):</b> רכישות בחו"ל שאינן מלוות באספקת מוצר פיזי (כגון תשלום על פירסום מאמרים או שירותים בחו"ל) אינן מתבצעות דרך הברנט. יש למלא <a href="https://biu365.sharepoint.com/formsFiles/%D7%91%D7%A7%D7%A9%D7%94-%D7%9C%D7%AA%D7%A9%D7%9C%D7%95%D7%9D-%D7%91%D7%9E%D7%98%D7%91%D7%A2-%D7%96%D7%A8-%D7%91%D7%97%D7%95%D7%9C-12.2024.docx" target="_blank" class="text-blue-600 hover:underline">טופס בקשה לתשלום במט"ח</a> ולשלוח אותו בצירוף החשבונית אל <b>שי שובל</b>, ראש מדור חו"ל (<a href="mailto:shy.shuval@biu.ac.il" class="text-blue-600 hover:underline">shy.shuval@biu.ac.il</a>).</li>
                             <li><b>רכש פיזי מספקים בחו"ל:</b> לגבי רכש מוצרים פיזיים מספקים בחו"ל שאינם מופיעים במערכת הברנט, מומלץ להתייעץ עם שי שובל.</li>
                         </ul>
                      </div>
@@ -775,7 +779,7 @@
 
         <!-- Appendix -->
         <section>
-             <div class="flex items-center mb-6 border-b-2 border-biu-green-light pb-2">
+             <div class="flex items-center mb-6 border-b-2 border-biu-light-green pb-2">
                 <h3 class="text-2xl font-bold text-biu-green">נספח: רשימת אנשי קשר מהירה</h3>
             </div>
              <div class="overflow-x-auto">
